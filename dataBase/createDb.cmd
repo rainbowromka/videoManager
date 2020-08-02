@@ -1,0 +1,1 @@
+"c:\Program Files\PostgreSQL\9.5\bin\initdb.exe" --encoding UTF8 -D "D:\Programming\videoManager\dataBase\db"

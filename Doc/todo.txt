@@ -1,0 +1,9 @@
+(v)  Приркутить PostGreSQL
+    (v) Взять за основу SERVER VKREACT
+    (v) написать доку как прикручивать.
+( ) Разместить на GitHub.
+
+
+( ) Проработать мануал https://spring.io/guides/tutorials/react-and-spring-data-rest/
+    ( ) Прикрутить реакт.
+    ( ) Добавить доку как запускать рекат.
