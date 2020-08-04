@@ -1,9 +1,11 @@
 (v)  Приркутить PostGreSQL
     (v) Взять за основу SERVER VKREACT
     (v) написать доку как прикручивать.
-( ) Разместить на GitHub.
-
-
-( ) Проработать мануал https://spring.io/guides/tutorials/react-and-spring-data-rest/
-    ( ) Прикрутить реакт.
-    ( ) Добавить доку как запускать рекат.
+(v) Разместить на GitHub.
+(v) Проработать мануал https://spring.io/guides/tutorials/react-and-spring-data-rest/
+    (v) Прикрутить реакт.
+    (v) Добавить доку как запускать рекат.
+( ) Реализовать UI реакта.
+    ( ) Прикрутить ReactRedux
+    ( ) Спроектировать UI простой список видео через storage.
+( ) Реализовать видео. https://melgenek.github.io/spring-video-service
