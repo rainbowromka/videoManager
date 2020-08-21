@@ -7,6 +7,9 @@ import org.springframework.boot.autoconfigure.flyway.FlywayMigrationStrategy;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Profile;
 
+/**
+ * Приложение Видеоменеджера главный класс.
+ */
 @SpringBootApplication
 @EnableTransactionManagement
 public class VideoManagerApplication {
@@ -16,7 +19,9 @@ public class VideoManagerApplication {
 	 */
 	Boolean isCleanDb = true;
 
-	public static void main(String[] args) {
+	public static void main(
+		String[] args)
+	{
 		SpringApplication.run(VideoManagerApplication.class, args);
 	}
 

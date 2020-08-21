@@ -1,7 +1,7 @@
 var path = require('path');
 
 module.exports = {
-    entry: './src/main/js/App.js',
+    entry: './src/main/js/index.js',
     devtool: 'sourcemaps',
     cache: true,
     mode: 'development',
@@ -26,5 +26,8 @@ module.exports = {
                 use: ['style-loader', 'css-loader']
             }
         ]
+    },
+    resolve: {
+        extensions: [".js", ".jsx", ".css"]
     }
 };

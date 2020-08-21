@@ -5,7 +5,16 @@
 (v) Проработать мануал https://spring.io/guides/tutorials/react-and-spring-data-rest/
     (v) Прикрутить реакт.
     (v) Добавить доку как запускать рекат.
+    (v) Разобраться с логином.
+
+( ) Спроектировать форму вывода списка меток видеороликов.
+    ( ) Урок с материалами.
+    https://www.youtube.com/watch?v=tKzSnjWPtEw&list=PLQg6GaokU5CwiVmsZ0d_9Zsg_DnIP_xwr&index=2
+
 ( ) Реализовать UI реакта.
     ( ) Прикрутить ReactRedux
     ( ) Спроектировать UI простой список видео через storage.
 ( ) Реализовать видео. https://melgenek.github.io/spring-video-service
+( ) Стриминг видео https://dzone.com/articles/streaming-data-with-spring-boot-restful-web-servic
+( ) Стриминг видео https://melgenek.github.io/spring-video-service
+( ) На Морде клиента реализовать проигрыватель https://video-react.js.org/components/player/
