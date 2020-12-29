@@ -14,7 +14,7 @@ public class HomeController
      *
      * @return возвращает имя ресурса.
      */
-    @RequestMapping(value = "/")
+    @RequestMapping(value = {"/", "/login", "/instagram"})
     public String index()
     {
         return "index";

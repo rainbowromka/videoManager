@@ -1,7 +1,10 @@
 import ReactDOM from "react-dom";
+import store from "./redux/redux-store"
 import React from "react";
 import App from "./App";
 // import App from "./AppEmployee/App";
+import {BrowserRouter} from "react-router-dom";
+import {Provider} from "react-redux";
 
 /**
  * Отрисовка учебного приложения AppEmployee основного приложения.
@@ -12,6 +15,8 @@ import App from "./App";
 // )
 
 ReactDOM.render(
-    <App loggedInManager={"roman"} />,
-    document.getElementById('react')
-)
+    <BrowserRouter>
+        <Provider store={store}>
+            <App/>
+        </Provider>
+    </BrowserRouter>, document.getElementById('react'));
